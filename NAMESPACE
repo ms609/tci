@@ -1,1 +1,1 @@
-export(max.cophenetic.index, total.cophenetic.index, list.ancestor)
+export(max.cophenetic.index, total.cophenetic.index, list.ancestors)

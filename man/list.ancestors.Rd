@@ -4,11 +4,12 @@
 \title{List ancestors}
 \description{Reports the ancestors of a given node}
 \usage{
-ancestors(tree, node)
+list.ancestors(parent, child, node)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
-  \item{tree}{a tree of class \code{phylo};}
+  \item{parent}{the 'parent' column of the edges property of a tree of class \code{phylo};}
+  \item{child}{the 'child' column of the edges property of a tree of class \code{phylo};}
   \item{node}{the number of the node or tip whose ancestors are required.}
 }
 \details{
@@ -26,6 +27,9 @@ Martin R. Smith
 \code{\link{phangorn:::Ancestors}}, a less efficient implementation on which this code is based.
 }
 \examples{
-tree <- rtree(20, br=NULL)
-tbr(tree)
+  tree <- read.tree(text='(1, (2, (3, (4, 5))));')  
+  edge <- tree$edge
+  parent <- tree$edge[, 1]
+  child  <- tree$edge[, 2]
+  list.ancestors(parent, child, 4)
 }
