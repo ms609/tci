@@ -14,17 +14,15 @@ list.ancestors(parent, child, node)
 }
 \details{
 To observe the number of a node or tip, use 
-\code {plot(tree); \link{nodelabels}(); \link{tiplabels}();}
+  \code{plot(tree); \link{nodelabels}(); \link{tiplabels}();}
 }
 \value{Returns a vector of the numbers of the nodes ancestral to the given \code{node}, including the root node.}
-\references{
-}
 \author{
 Martin R. Smith
 }
 
 \seealso{
-\code{\link{phangorn:::Ancestors}}, a less efficient implementation on which this code is based.
+\code{phangorn:::Ancestors}, a less efficient implementation on which this code is based.
 }
 \examples{
   tree <- read.tree(text='(1, (2, (3, (4, 5))));')  

@@ -18,7 +18,7 @@ total.cophenetic.index(tree)
   This ranges from 0 to \code{\link{max.cophenetic.index}(tree)}
 }
 \references{
-A. Mir, F. Rosselló, L. A. Rotger, \cite{A new balance index for phylogenetic trees.} Math. Biosci. 241, 125–136 (2013).
+A. Mir, F. Rosselló, L. A. Rotger, \cite{A new balance index for phylogenetic trees.} Math. Biosci. 241, 125-136 (2013).
 }
 \author{
 Martin R. Smith
