@@ -1,0 +1,9 @@
+Package: total.cophenetic.index
+Type: Package
+Title: Total Cophenetic Index
+Version: 0.01
+Date: 2016-03-23
+Author: Martin R. Smith
+Maintainer: Martin R. Smith <martins@gmail.com>
+Description: Calculates the Total Cophenetic Index (Mir et al. 2013) for a phylogenetic tree of class 'phylo'.  Reference: A. Mir, F. Rosselló, L. a. Rotger, A new balance index for phylogenetic trees. Math. Biosci. 241, 125–136 (2013).
+License: Unlimited
