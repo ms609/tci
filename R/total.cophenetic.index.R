@@ -45,7 +45,27 @@ total.cophenetic.index <- function (tree) {
   return (sum(lca.depth[upper.tri(lca.depth)]))
 }
 
-max.cophenetic.index <- function (tree) {
-  nTip <- length(tree$tip.label)
-  choose(nTip, 3)
+cophenetic.index.context <- function (tree) {
+  n <- length(tree$tip.label)
+  maximum <- choose(n, 3)
+  minimum <- mci(n)
+  # Theorem 17
+  uniform.expected <- (1 / 2) * choose(n, 2) * ((dfact((2 * n) - 2) / dfact((2 * n) - 3)) - 2)
+  yule.expected    <- n * (n + 1) - (2 * n * H(n))
+  yule.variance    <- ((1 / 12) * (n^4 - (10 * n^3) + (131 * n^2) - (2 * n))) - (4 * n^2 * H2(n)) - (6 * n * H(n))
+  return (data.frame(maximum,   minimum,   uniform.expected,  yule.expected,  yule.variance))
 }
+
+H <- function (n) sum(1 / (1:n))
+H2 <- function (n) sum(1 / (1:n)^2)
+
+dfact <- function (n) {
+  if (n < 2) return (1)
+  n * dfact(n - 2)
+}
+
+mci <- function (n) { # Lemma 14 in Mir er al 2013
+  if (n < 3) return (0)
+  ceiling(mci(n/2)) + floor (mci(n/2)) + choose(ceiling(n/2), 2) + choose(floor(n/2), 2)
+}
+
