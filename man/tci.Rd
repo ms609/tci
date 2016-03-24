@@ -1,5 +1,5 @@
-\name{total.cophenetic.index}
-\alias{total.cophenetic.index}
+\name{tci}
+\alias{tci}
 
 \title{Total Cophenetic Index}
 \description{Calculate the Total Cophenetic Index for any tree.}
@@ -11,7 +11,11 @@ total.cophenetic.index(tree)
   \item{tree}{a tree of class \code{\link{phylo}}}
 }
 \details{
-
+  The Total Cophenetic Index is a measure of tree balance -
+  i.e. whether a (phylogenetic) tree comprises symmetric pairs of nodes, or has a pectinate 
+  'caterpillar' shape.   The index has a greater resolution power than Sackin's and Colless' indices,
+  and can be applied to trees that are not perfectly resolved.
+  Full details are provided by Mir et al (2013).
 }
 \value{
   Returns the Total Cophenetic Index, a measure of the balance of the tree.
