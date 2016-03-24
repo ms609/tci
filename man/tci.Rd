@@ -4,7 +4,7 @@
 \title{Total Cophenetic Index}
 \description{Calculate the Total Cophenetic Index for any tree.}
 \usage{
-total.cophenetic.index(tree)
+tci(tree)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
@@ -19,7 +19,6 @@ total.cophenetic.index(tree)
 }
 \value{
   Returns the Total Cophenetic Index, a measure of the balance of the tree.
-  The range of possible values, and those expected under simple models of evolution, is provided by \code{\link{tci.context}(tree)}
 }
 \references{
 A. Mir, F. Rossello, L. A. Rotger, \cite{A new balance index for phylogenetic trees.} Math. Biosci. 241, 125-136 (2013).
@@ -29,12 +28,12 @@ Martin R. Smith
 }
 
 \seealso{
-  \code{\link{max.cophenetic.index}}, the maximum value that the Total Cophenetic Index can obtain for a tree with the given number of tips.
+  The range of possible values for a tree with n tips, and the values expected under simple models of evolution, is provided by \code{\link{tci.context}(tree)}
 }
 
 \examples{
-  tree12 <- read.tree(text='(1, (2, (3, (4, 5))));')  #Fig. 4, tree 12
-  total.cophenetic.index(tree12) # 10
-  tree8  <- read.tree(text='((1, 2, 3, 4), 5);')      #Fig. 4, tree 8
-  total.cophenetic.index(tree8)  # 6
+  tree12 <- ape::read.tree(text='(1, (2, (3, (4, 5))));')  #Fig. 4, tree 12
+  tci(tree12) # 10
+  tree8  <- ape::read.tree(text='((1, 2, 3, 4), 5);')      #Fig. 4, tree 8
+  tci(tree8)  # 6
 }

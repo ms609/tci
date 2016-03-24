@@ -27,10 +27,10 @@ A. Mir, F. Rossello, L. A. Rotger, \cite{A new balance index for phylogenetic tr
 Martin R. Smith
 }
 \seealso{
-  \code{\link{max.cophenetic.index}}, the maximum value for a given tree
+  \code{\link{tci}}, the Total Cophenetic Index for a given tree
 }
 \examples{
-  tree12 <- read.tree(text='(1, (2, (3, (4, 5))));')  #Fig. 4, tree 12
+  tree12 <- ape::read.tree(text='(1, (2, (3, (4, 5))));')  #Fig. 4, tree 12
   tci(tree12)
   tci.context(tree12)
 }

@@ -1,1 +1,1 @@
-export(cophenetic.index.context, total.cophenetic.index, list.ancestors)
+export(tci.context, tci, list.ancestors)
