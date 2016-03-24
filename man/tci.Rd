@@ -19,7 +19,7 @@ total.cophenetic.index(tree)
 }
 \value{
   Returns the Total Cophenetic Index, a measure of the balance of the tree.
-  This ranges from 0 to \code{\link{max.cophenetic.index}(tree)}
+  The range of possible values, and those expected under simple models of evolution, is provided by \code{\link{tci.context}(tree)}
 }
 \references{
 A. Mir, F. Rossello, L. A. Rotger, \cite{A new balance index for phylogenetic trees.} Math. Biosci. 241, 125-136 (2013).
