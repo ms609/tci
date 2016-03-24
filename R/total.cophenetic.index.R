@@ -1,21 +1,18 @@
 list.ancestors <- function (parent, child, node) {
-    if (length(node) == 1) {
-        pvector <- numeric(max(parent))
-        pvector[child] <- parent
-        anc <- function(pvector, node) {
-            res <- numeric(0)
-            repeat {
-                anc <- pvector[node]
-                if (anc == 0) 
-                  break
-                res <- c(res, anc)
-                node <- anc
-            }
-            res
+    pvector <- numeric(max(parent))
+    pvector[child] <- parent
+    anc <- function(pvector, node) {
+        res <- numeric(0)
+        repeat {
+            anc <- pvector[node]
+            if (anc == 0) 
+              break
+            res <- c(res, anc)
+            node <- anc
         }
-        return(anc(pvector, node))
+        res
     }
-    else all.ancestors(parent, child)[node]
+    return(anc(pvector, node))
 }
 
 depths <- function (parent, child) {
@@ -27,7 +24,7 @@ depths <- function (parent, child) {
   as.integer(depth)
 }
 
-total.cophenetic.index <- function (tree) {
+tci <- function (tree) {
   edge <- tree$edge
   parent <- edge[, 1]
   child  <- edge[, 2]
@@ -45,7 +42,7 @@ total.cophenetic.index <- function (tree) {
   return (sum(lca.depth[upper.tri(lca.depth)]))
 }
 
-cophenetic.index.context <- function (tree) {
+tci.context <- function (tree) {
   n <- length(tree$tip.label)
   maximum <- choose(n, 3)
   minimum <- mci(n)
