@@ -48,7 +48,7 @@ tci.context <- function (tree) {
   minimum <- mci(n)
   # Theorem 17
   uniform.expected <- (1 / 2) * choose(n, 2) * ((dfact((2 * n) - 2) / dfact((2 * n) - 3)) - 2)
-  yule.expected    <- n * (n + 1) - (2 * n * H(n))
+  yule.expected    <- (n * (n + 1)) - (2 * n * H(n))
   yule.variance    <- ((1 / 12) * (n^4 - (10 * n^3) + (131 * n^2) - (2 * n))) - (4 * n^2 * H2(n)) - (6 * n * H(n))
   return (data.frame(maximum,   minimum,   uniform.expected,  yule.expected,  yule.variance))
 }
