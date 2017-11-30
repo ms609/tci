@@ -1,0 +1,18 @@
+citHeader("To cite in a publication please use:")
+
+year <- "2016"
+vers <- paste("R package version", meta$Version)
+
+citEntry(entry = "Manual",
+         title = "TotalCopheneticIndex: an R package to quantify tree balance",
+         author = personList(as.person("Martin D. Brazeau"), as.person("Thomas Guillerme"), as.person("Martin R. Smith")),
+         year = year,
+         note = vers,
+         journal = 'Zenodo',
+         doi = '10.5281/zenodo.1068974',
+         textVersion =
+         paste0("M. R. Smith (2016). ",
+                "TotalCopheneticIndex: an R package to quantify tree balance. Zenodo"
+                ,
+                ", doi: 10.5281/zenodo.1068974")
+         )
