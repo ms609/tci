@@ -1,0 +1,14 @@
+{
+    "description": "An R Package to Quantify Tree Balance", 
+    "license": "unlimited", 
+    "title": "Total Cophenetic Index", 
+    "version": "v1.0.0", 
+    "upload_type": "software", 
+    "creators": [
+        {
+            "affiliation": "Department of Earth Sciences, Durham University", 
+            "name": "Martin R. Smith",
+            "orcid": "0000-0001-5660-1727"
+        }
+    ]
+}
