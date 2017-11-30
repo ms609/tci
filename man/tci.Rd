@@ -17,7 +17,7 @@ tci(tree)
   i.e. whether a (phylogenetic) tree comprises symmetric pairs of nodes, or has a pectinate
   'caterpillar' shape.   The index has a greater resolution power than Sackin's and Colless' indices,
   and can be applied to trees that are not perfectly resolved.
-  Full details are provided by Mir et al (2013).
+  Full details are provided by Mir \emph{et al.} (2013).
 }
 
 \value{

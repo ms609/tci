@@ -21,7 +21,7 @@ tci.context(tree)
 
 \value{
   A data frame detailing the maximum and minimum value obtainable for the Total Cophenetic Index for dichotomous
-  trees with the number of tips of the given tree, and the expected value under the Yule and Unifrom models.
+  trees with the number of tips of the given tree, and the expected value under the Yule and Uniform models.
   The variance of the expected value is given under the Yule model, but cannot be obtained by calculation for the Uniform model.
 }
 
