@@ -1,6 +1,6 @@
 language: r
 r:
- - 2.0
+ - 2.0.0
  - devel
 cache: packages
 warnings_are_errors: true
@@ -11,8 +11,7 @@ git:
 
 r_packages:
  - ape
- - covr 
- 
+ - covr
+
 after_success:
  - Rscript -e "covr::codecov()"
- 
