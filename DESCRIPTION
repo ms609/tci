@@ -1,12 +1,17 @@
 Package: TotalCopheneticIndex
-Version: 1.0.0
-Date: 2017-11-30
+Version: 1.0.0.9000
+Date: 2019-01-03
 Title: Total Cophenetic Index: An R Package to Quantify Tree Balance
-Author: Martin R. Smith
-Maintainer: Martin R. Smith <martins@gmail.com>
+Authors@R: c(person("Martin R.", 'Smith',
+                  email="martin.smith@durham.ac.uk", 
+                  role=c("aut", "cre", "cph"), 
+                  comment=c(ORCID = "0000-0001-5660-1727"))
+            )
+Maintainer: Martin R. Smith <martin.smith@durham.ac.uk>
 Description: For a given phylogenetic tree, calculates the Total Cophenetic Index.
-  Reference - A. Mir, F. Rossello, L. A. Rotger, A new balance index for phylogenetic trees.
-  Math. Biosci. 241, 125-136 (2013).
+  Reference - A. Mir, F. Rossello, L. A. Rotger (2013).
+  A new balance index for phylogenetic trees.
+  Math. Biosci. 241, 125-136. <doi:10.1016/j.mbs.2012.10.005>
 Depends: R (>= 3.0)
 Suggests: ape
 License: Unlimited
