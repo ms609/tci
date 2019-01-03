@@ -1,4 +1,4 @@
-<!--[![Build Status](https://travis-ci.org/ms609/TreeSearch.svg?branch=master)](https://travis-ci.org/ms609/TreeSearch)
+[![Build Status](https://travis-ci.org/ms609/tci.svg?branch=master)](https://travis-ci.org/ms609/tci)<!--
 [![codecov](https://codecov.io/gh/ms609/tci/branch/master/graph/badge.svg)](https://codecov.io/gh/ms609/TreeSearch)-->
 [![CRAN Status Badge](http://www.r-pkg.org/badges/version/TotalCopheneticIndex)](https://cran.r-project.org/package=TotalCopheneticIndex)
 [![CRAN Downloads](http://cranlogs.r-pkg.org/badges/TotalCopheneticIndex)](https://cran.r-project.org/package=TotalCopheneticIndex)<!--
