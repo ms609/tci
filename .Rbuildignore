@@ -1,5 +1,6 @@
 ^.*\.Rproj$
 ^\.Rproj\.user$
 .yml
+NEWS.md
 cran-comments.md
 .json
