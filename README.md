@@ -6,9 +6,17 @@
 [![Project Status: Inactive - The project has reached a stable, usable state but is no longer being actively developed; support/maintenance will be provided as time allows.](http://www.repostatus.org/badges/latest/inactive.svg)](http://www.repostatus.org/#inactive)
 
 # TotalCopheneticIndex
-R package implementing the Total Cophenetic Index measure of Mir et al. 2013, which describes how balanced a phylogenetic tree is.
+R package implementing the Total Cophenetic Index measure of Mir _et al._ (2013).
+
+The total cophenetic index describes how balanced a phylogenetic tree is,
+by measuring the how deep the most recent common ancestor of each pair of leaves
+lies within the tree.
+
+# See also
+
+This functionality is now available via Rogter's package [	https://github.com/LuciaRotger/CollessLike](CollessLike) R package.
 
 # References
 
- A. Mir, F. Rossello, L. A. Rotger, A new balance index for phylogenetic trees.
-  Math. Biosci. 241, 125-136 (2013).
+A. Mir, F. Rossello, L. A. Rotger, A new balance index for phylogenetic trees.
+  _Math. Biosci._ 241, 125-136 (2013).

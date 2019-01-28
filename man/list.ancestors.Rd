@@ -17,7 +17,7 @@ list.ancestors(parent, child, node)
 
 \details{
 To observe the number of a node or tip, use
-  \code{plot(tree); \link[ape]{nodelabels}(); \link[ape]{tiplabels}();}
+  \code{plot(tree); \link[ape]{nodelabels}(); \link[ape:nodelabels]{tiplabels}();}
 }
 
 \value{Returns a vector of the numbers of the nodes ancestral to the given \code{node}, including the root node.}

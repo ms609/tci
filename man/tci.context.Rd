@@ -10,7 +10,7 @@ tci.context(tree)
 }
 
 \arguments{
-  \item{tree}{a tree of class \code{\link[ape]{phylo}}}
+  \item{tree}{a tree of class \code{\link[ape:read.tree]{phylo}}}
 }
 
 \details{

@@ -9,7 +9,7 @@ tci(tree)
 }
 
 \arguments{
-  \item{tree}{a tree of class \code{\link[ape]{phylo}}}
+  \item{tree}{a tree of class \code{\link[ape:read.tree]{phylo}}}
 }
 
 \details{
@@ -33,7 +33,13 @@ Martin R. Smith
 }
 
 \seealso{
-  The range of possible values for a tree with n tips, and the values expected under simple models of evolution, is provided by \code{\link{tci.context}(tree)}
+The CollessLike package (https://github.com/LuciaRotger/CollessLike) now
+  provides an alternative implementation of this index, and its predecessors.
+  See \link[CollessLike]{cophen.index}.
+
+  The range of possible values for a tree with \emph{n} tips,
+  and the values expected under simple models of evolution,
+  is provided by \code{\link{tci.context}(tree)}
 }
 
 \examples{

@@ -1,3 +1,10 @@
+## TotalCopheneticIndex v1.0.1
+
+- Fixes some small errors in documentation and package metadata.
+- Small improvements to performance and code hygiene.
+- Add unit tests.
+- Link to CollessLike.
+
 ## TotalCopheneticIndex v1.0.0
 
 - Fixes some small errors in documentation and package metadata.
