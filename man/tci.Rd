@@ -9,7 +9,7 @@ tci(tree)
 }
 
 \arguments{
-  \item{tree}{a tree of class \code{\link[ape:read.tree]{phylo}}}
+  \item{tree}{a tree of class \code{\link[ape:read.tree]{phylo}}.}
 }
 
 \details{

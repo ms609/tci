@@ -1,1 +1,2 @@
-export(tci.context, tci, list.ancestors)
+export(tci.context.n, tci.context, tci, list.ancestors)
+importFrom(memoise, memoise)

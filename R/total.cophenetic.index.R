@@ -29,10 +29,11 @@ depths <- function (parent, child) {
 }
 
 tci <- function (tree) {
-  edge <- tree$edge
+  nTip   <- length(tree$tip.label)
+
+  edge   <- tree$edge
   parent <- edge[, 1]
   child  <- edge[, 2]
-  nTip   <- length(tree$tip.label)
   depth  <- depths(parent, child)
 
   ancestors <- lapply(seq_len(nTip),
@@ -53,8 +54,18 @@ tci <- function (tree) {
   sum(lca.depth[upper.tri(lca.depth)])
 }
 
-tci.context <- function (tree) {
-  n <- length(tree$tip.label)
+dfact <- memoise(function (n) {
+  if (n < 2) {
+    1L
+  } else {
+    n * dfact(n - 2L)
+  }
+})
+
+tci.context.n <- memoise(function(n) {
+  H  <- function (n) sum(1 / (seq_len(n)))
+  H2 <- function (n) sum(1 / (seq_len(n)^2))
+
   maximum <- choose(n, 3L)
   minimum <- mci(n)
 
@@ -66,18 +77,11 @@ tci.context <- function (tree) {
     (4 * n^2 * H2(n)) - (6 * n * H(n))
 
   # Return:
-  data.frame(maximum,   minimum,   uniform.expected,  yule.expected,  yule.variance)
-}
+  data.frame(maximum, minimum, uniform.expected, yule.expected, yule.variance)
+})
 
-H <- function (n) sum(1 / (seq_len(n)))
-H2 <- function (n) sum(1 / (seq_len(n)^2))
-
-dfact <- function (n) {
-  if (n < 2) {
-    1L
-  } else {
-    n * dfact(n - 2L)
-  }
+tci.context <- function (tree) {
+  tci.context.n(length(tree$tip.label))
 }
 
 mci <- function (n) { # Lemma 14 in Mir er al 2013

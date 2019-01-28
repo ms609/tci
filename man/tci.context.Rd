@@ -1,5 +1,6 @@
 \name{tci.context}
 \alias{tci.context}
+\alias{tci.context.n}
 
 \title{Contextualize Total Cophenetic Index value}
 
@@ -7,10 +8,12 @@
 
 \usage{
 tci.context(tree)
+tci.context.n(n)
 }
 
 \arguments{
-  \item{tree}{a tree of class \code{\link[ape:read.tree]{phylo}}}
+  \item{tree}{a tree of class \code{\link[ape:read.tree]{phylo}};}
+  \item{n}{integer specifying the number of tips in a tree.}
 }
 
 \details{
@@ -41,4 +44,5 @@ Martin R. Smith
   tree12 <- ape::read.tree(text='(1, (2, (3, (4, 5))));')  #Fig. 4, tree 12
   tci(tree12)
   tci.context(tree12)
+  tci.context.n(5) # For any tree with 5 tips
 }
