@@ -1,7 +1,7 @@
 Package: TotalCopheneticIndex
 Version: 1.0.1
 Date: 2019-01-28
-Title: Total Cophenetic Index: An R Package to Quantify Tree Balance
+Title: An R Package to Quantify Tree Balance
 Authors@R: c(person("Martin R.", 'Smith',
                   email="martin.smith@durham.ac.uk", 
                   role=c("aut", "cre", "cph"), 
@@ -25,4 +25,3 @@ Language: en-GB
 Encoding: UTF-8
 ByteCompile: true
 RoxygenNote: 6.1.1
-VignetteBuilder: knitr
