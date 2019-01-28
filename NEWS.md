@@ -3,7 +3,7 @@
 - Fixes some small errors in documentation and package metadata.
 - Small improvements to performance and code hygiene.
 - Add unit tests.
-- Link to CollessLike.
+- Link to `CollessLike` package.
 
 ## TotalCopheneticIndex v1.0.0
 
