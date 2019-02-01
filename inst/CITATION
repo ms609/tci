@@ -13,5 +13,5 @@ citEntry(entry = "Manual",
          textVersion =
          paste0("M. R. Smith (2016). ",
                 "TotalCopheneticIndex: an R package to quantify tree balance. Zenodo",
-                ", doi: 10.5281/zenodo.1068974")
+                ", doi: 10.5281/zenodo.1068973")
          )
