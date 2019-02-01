@@ -1,6 +1,6 @@
 {
     "description": "An R Package to Quantify Tree Balance",
-    "license": "unlimited",
+    "license": "gpl-3.0",
     "title": "Total Cophenetic Index",
     "version": "v1.0.1",
     "upload_type": "software",
