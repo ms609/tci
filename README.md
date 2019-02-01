@@ -14,7 +14,7 @@ lies within the tree.
 
 # See also
 
-This functionality is now available via Rogter's package [	https://github.com/LuciaRotger/CollessLike](CollessLike) R package.
+This functionality is now available via Rogter's [CollessLike](https://github.com/LuciaRotger/CollessLike) R package.
 
 # References
 
