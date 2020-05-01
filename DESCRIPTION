@@ -1,6 +1,5 @@
 Package: TotalCopheneticIndex
-Version: 1.0.1
-Date: 2019-01-28
+Version: 2.0.0
 Title: An R Package to Quantify Tree Balance
 Authors@R: c(person("Martin R.", 'Smith',
                   email="martin.smith@durham.ac.uk", 
@@ -13,10 +12,10 @@ Description: For a given phylogenetic tree, calculates the Total Cophenetic Inde
   A new balance index for phylogenetic trees.
   Math. Biosci. 241, 125-136 <doi:10.1016/j.mbs.2012.10.005>.
 URL: https://github.com/ms609/tci
-BugReports: https://github.com/ms609/tci/issues
+BugReports: https://github.com/ms609/TreeTools/issues
 Depends: R (>= 3.2.0)
 Imports:
-  memoise
+  TreeTools
 Suggests: 
   ape,
   CollessLike,
