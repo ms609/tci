@@ -14,7 +14,9 @@ lies within the tree.
 
 # See also
 
-This functionality is now available via Rogter's [CollessLike](https://github.com/LuciaRotger/CollessLike) R package.
+This functionality is now available via the function [`TotalCopheneticIndex()`](https://ms609.github.io/TreeTools/reference/TotalCopheneticIndex.html) in the
+'[TreeTools](https://ms609.github.io/TreeTools/)' package, and Rogter's package 
+'[CollessLike](https://github.com/LuciaRotger/CollessLike)'.
 
 # References
 
