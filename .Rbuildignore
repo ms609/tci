@@ -5,3 +5,4 @@ cran-comments.md
 .json
 vignettes
 ^codemeta\.json$
+^CRAN-RELEASE$
