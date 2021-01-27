@@ -2,7 +2,7 @@
 \alias{tci}
 
 \title{Total Cophenetic Index}
-\description{Calculate the Total Cophenetic Index for any tree.}
+\description{Calculate the Total Cophenetic Index for any tree. Now simply a wrapper for \code{TreeTools::\link[TreeTools]{TotalCopheneticIndex}()}.}
 
 \usage{
 tci(tree)

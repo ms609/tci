@@ -1,0 +1,141 @@
+{
+  "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+  "@type": "SoftwareSourceCode",
+  "identifier": "TotalCopheneticIndex",
+  "description": "For a given phylogenetic tree, calculates the Total Cophenetic Index.\n  Reference: A. Mir, F. Rossello, L. A. Rotger (2013).\n  A new balance index for phylogenetic trees.\n  Math. Biosci. 241, 125-136 <doi:10.1016/j.mbs.2012.10.005>.",
+  "name": "TotalCopheneticIndex: An R Package to Quantify Tree Balance",
+  "codeRepository": "https://github.com/ms609/tci",
+  "issueTracker": "https://github.com/ms609/TreeTools/issues",
+  "license": "Unlimited",
+  "version": "2.0.0",
+  "programmingLanguage": {
+    "@type": "ComputerLanguage",
+    "name": "R",
+    "url": "https://r-project.org"
+  },
+  "runtimePlatform": "R version 4.0.3 (2020-10-10)",
+  "provider": {
+    "@id": "https://cran.r-project.org",
+    "@type": "Organization",
+    "name": "Comprehensive R Archive Network (CRAN)",
+    "url": "https://cran.r-project.org"
+  },
+  "author": [
+    {
+      "@type": "Person",
+      "givenName": "Martin R.",
+      "familyName": "Smith",
+      "email": "martin.smith@durham.ac.uk",
+      "@id": "https://orcid.org/0000-0001-5660-1727"
+    }
+  ],
+  "contributor": {},
+  "copyrightHolder": [
+    {
+      "@type": "Person",
+      "givenName": "Martin R.",
+      "familyName": "Smith",
+      "email": "martin.smith@durham.ac.uk",
+      "@id": "https://orcid.org/0000-0001-5660-1727"
+    }
+  ],
+  "funder": {},
+  "maintainer": [
+    {
+      "@type": "Person",
+      "givenName": "Martin R.",
+      "familyName": "Smith",
+      "email": "martin.smith@durham.ac.uk",
+      "@id": "https://orcid.org/0000-0001-5660-1727"
+    }
+  ],
+  "softwareSuggestions": [
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "ape",
+      "name": "ape",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=ape"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "knitr",
+      "name": "knitr",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=knitr"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "testthat",
+      "name": "testthat",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=testthat"
+    }
+  ],
+  "softwareRequirements": [
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "R",
+      "name": "R",
+      "version": ">= 3.4.0"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "TreeTools",
+      "name": "TreeTools",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=TreeTools"
+    }
+  ],
+  "releaseNotes": "https://github.com/ms609/tci/blob/master/NEWS.md",
+  "readme": "https://github.com/ms609/tci/blob/master/README.md",
+  "fileSize": "9.936KB",
+  "developmentStatus": "http://www.repostatus.org/#inactive",
+  "citation": [
+    {
+      "@type": "SoftwareSourceCode",
+      "datePublished": "2016",
+      "author": [
+        {
+          "@type": "Person",
+          "givenName": ["Martin", "R."],
+          "familyName": "Smith"
+        }
+      ],
+      "name": "TotalCopheneticIndex: an R package to quantify tree balance",
+      "identifier": "10.5281/zenodo.1068973",
+      "description": "R package version ",
+      "@id": "https://doi.org/10.5281/zenodo.1068973",
+      "sameAs": "https://doi.org/10.5281/zenodo.1068973",
+      "isPartOf": {
+        "@type": "PublicationIssue",
+        "datePublished": "2016",
+        "isPartOf": {
+          "@type": ["PublicationVolume", "Periodical"],
+          "name": "Zenodo"
+        }
+      }
+    }
+  ],
+  "relatedLink": "https://CRAN.R-project.org/package=TotalCopheneticIndex"
+}

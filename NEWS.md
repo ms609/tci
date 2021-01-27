@@ -1,6 +1,6 @@
 ## TotalCopheneticIndex v2.0.0
 
- - Standalone package discontinued.  Functions moved to 'TreeTools' package.
+ - Functions moved to 'TreeTools' package; exisiting functions serve as wrappers.
  - Fixed miscalculation when a tree's internal nodes are poorly numbered.
 
 ## TotalCopheneticIndex v1.0.1
