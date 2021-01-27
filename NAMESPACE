@@ -1,2 +1,4 @@
 export(tci.context.n, tci.context, tci, list.ancestors)
-importFrom(memoise, memoise)
+importFrom(TreeTools, ListAncestors)
+importFrom(TreeTools, TCIContext)
+importFrom(TreeTools, TotalCopheneticIndex)

@@ -1,5 +1,3 @@
-[![Build Status](https://travis-ci.org/ms609/tci.svg?branch=master)](https://travis-ci.org/ms609/tci)
-[![codecov](https://codecov.io/gh/ms609/tci/branch/master/graph/badge.svg)](https://codecov.io/gh/ms609/tci)
 [![CRAN Status Badge](http://www.r-pkg.org/badges/version/TotalCopheneticIndex)](https://cran.r-project.org/package=TotalCopheneticIndex)
 [![CRAN Downloads](http://cranlogs.r-pkg.org/badges/TotalCopheneticIndex)](https://cran.r-project.org/package=TotalCopheneticIndex)
 [![DOI](https://zenodo.org/badge/54549731.svg)](https://zenodo.org/badge/latestdoi/54549731)
@@ -7,6 +5,8 @@
 
 # TotalCopheneticIndex
 R package implementing the Total Cophenetic Index measure of Mir _et al._ (2013).
+This package is now simply a wrapper for the function `TotalCopheneticIndex()`
+in the package '[TreeTools](https://ms609.github.io/TreeTools/).
 
 The total cophenetic index describes how balanced a phylogenetic tree is,
 by measuring the how deep the most recent common ancestor of each pair of leaves
@@ -14,7 +14,7 @@ lies within the tree.
 
 # See also
 
-This functionality is now available via Rogter's [CollessLike](https://github.com/LuciaRotger/CollessLike) R package.
+This functionality is now available via Rogter's (unmaintained?) [CollessLike](https://github.com/LuciaRotger/CollessLike) R package.
 
 # References
 
