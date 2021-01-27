@@ -3,7 +3,7 @@
 
 \title{List ancestors}
 
-\description{Reports the ancestors of a given node}
+\description{Reports the ancestors of a given node. Now simply a wrapper for \code{TreeTools::\link[TreeTools]{ListAncestors}()}.}
 
 \usage{
 list.ancestors(parent, child, node)

@@ -4,7 +4,7 @@
 
 \title{Contextualize Total Cophenetic Index value}
 
-\description{Calculate the range of values that the Total Cophenetic Index can take, and expected values under the Yule and Uniform models of evolution.}
+\description{Calculate the range of values that the Total Cophenetic Index can take, and expected values under the Yule and Uniform models of evolution. Now simply a wrapper for \code{TreeTools::\link[TreeTools]{TCIContext}()}.}
 
 \usage{
 tci.context(tree)

@@ -2,7 +2,7 @@
 \alias{tci}
 
 \title{Total Cophenetic Index}
-\description{Calculate the Total Cophenetic Index for any tree.}
+\description{Calculate the Total Cophenetic Index for any tree. Now simply a wrapper for \code{TreeTools::\link[TreeTools]{TotalCopheneticIndex}()}.}
 
 \usage{
 tci(tree)
@@ -33,9 +33,9 @@ Martin R. Smith
 }
 
 \seealso{
-The CollessLike package (https://github.com/LuciaRotger/CollessLike) now
+  The 'CollessLike' package (https://github.com/LuciaRotger/CollessLike)
   provides an alternative implementation of this index, and its predecessors.
-  See \link[CollessLike]{cophen.index}.
+  See its function \code{cophen.index}.
 
   The range of possible values for a tree with \emph{n} tips,
   and the values expected under simple models of evolution,
