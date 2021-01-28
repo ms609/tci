@@ -1,6 +1,6 @@
 Package: TotalCopheneticIndex
 Version: 2.0.0
-Title: An R Package to Quantify Tree Balance
+Title: Quantify the Balance of Phylogenetic Trees
 Authors@R: c(person("Martin R.", 'Smith',
                   email="martin.smith@durham.ac.uk", 
                   role=c("aut", "cre", "cph"), 
@@ -19,6 +19,7 @@ Imports:
   TreeTools
 Suggests: 
   ape,
+  fansi,
   knitr,
   testthat
 License: Unlimited
