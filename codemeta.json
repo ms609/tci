@@ -7,7 +7,7 @@
   "@type": "SoftwareSourceCode",
   "identifier": "TotalCopheneticIndex",
   "description": "Measures the degree of balance for a given phylogenetic tree by \n  calculating the Total Cophenetic Index.\n  Reference: A. Mir, F. Rossello, L. A. Rotger (2013).\n  A new balance index for phylogenetic trees.\n  Math. Biosci. 241, 125-136 <doi:10.1016/j.mbs.2012.10.005>.",
-  "name": "TotalCopheneticIndex: An R Package to Quantify Tree Balance",
+  "name": "TotalCopheneticIndex: Quantify the Balance of Phylogenetic Trees",
   "codeRepository": "https://github.com/ms609/tci",
   "issueTracker": "https://github.com/ms609/TreeTools/issues",
   "license": "Unlimited",
@@ -68,6 +68,18 @@
     },
     {
       "@type": "SoftwareApplication",
+      "identifier": "fansi",
+      "name": "fansi",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=fansi"
+    },
+    {
+      "@type": "SoftwareApplication",
       "identifier": "knitr",
       "name": "knitr",
       "provider": {
@@ -113,7 +125,7 @@
   ],
   "releaseNotes": "https://github.com/ms609/tci/blob/master/NEWS.md",
   "readme": "https://github.com/ms609/tci/blob/master/README.md",
-  "fileSize": "10.318KB",
+  "fileSize": "10.461KB",
   "developmentStatus": "https://www.repostatus.org/#inactive",
   "citation": [
     {
