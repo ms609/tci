@@ -1,3 +1,8 @@
+## TotalCopheneticIndex v2.0.1
+
+ - Update tests to match corrected calculation of minimum TCI value in
+   'TreeTools' v1.4.5.
+
 ## TotalCopheneticIndex v2.0.0
 
  - Functions moved to 'TreeTools' package; existing functions retained as wrappers.
