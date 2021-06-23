@@ -90,7 +90,7 @@
       "@type": "SoftwareApplication",
       "identifier": "TreeTools",
       "name": "TreeTools",
-      "version": ">= 1.4.4.9005",
+      "version": ">= 1.4.5",
       "provider": {
         "@id": "https://cran.r-project.org",
         "@type": "Organization",
@@ -102,7 +102,7 @@
   ],
   "releaseNotes": "https://github.com/ms609/tci/blob/master/NEWS.md",
   "readme": "https://github.com/ms609/tci/blob/master/README.md",
-  "fileSize": "10.253KB",
+  "fileSize": "10.254KB",
   "developmentStatus": "https://www.repostatus.org/#inactive",
   "citation": [
     {

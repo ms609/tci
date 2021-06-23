@@ -6,7 +6,7 @@
 # TotalCopheneticIndex
 R package implementing the Total Cophenetic Index measure of Mir _et al._ (2013).
 This package is now simply a wrapper for the function `TotalCopheneticIndex()`
-in the package '[TreeTools](https://ms609.github.io/TreeTools/).
+in the package '[TreeTools](https://ms609.github.io/TreeTools/)'.
 
 The total cophenetic index describes how balanced a phylogenetic tree is,
 by measuring the how deep the most recent common ancestor of each pair of leaves
